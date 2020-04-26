@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
     "start": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 1313 --browser 'FirefoxQuantumDeveloperEdition'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
